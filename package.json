@@ -1,0 +1,38 @@
+{
+  "name": "parse-ip-port",
+  "version": "1.0.0",
+  "description": "Parse ip and port from a string that formed by \"ip:port\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leecjson/node-parse-ip-port.git"
+  },
+  "keywords": [
+    "ip-port",
+    "ip:port",
+    "ip",
+    "port",
+    "pair",
+    "addr",
+    "address",
+    "net",
+    "end",
+    "point",
+    "compact"
+  ],
+  "author": "leecjson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leecjson/node-parse-ip-port/issues"
+  },
+  "homepage": "https://github.com/leecjson/node-parse-ip-port#readme",
+  "dependencies": {
+    "is-valid-port": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
